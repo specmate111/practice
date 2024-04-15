@@ -49,7 +49,7 @@ class _FunFactsState extends State<FunFacts> {
                           size: 30,
                         ),
                       ),
-                      hintText: 'Search a timezone',
+                      hintText: 'Search by city',
                       hintStyle: const TextStyle(color: Colors.white54),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20),

@@ -49,7 +49,7 @@ class BottomNavigationWidget extends StatelessWidget {
                 label: ''),
             BottomNavigationBarItem(
                 icon: Icon(
-                  Icons.info_rounded,
+                  Icons.cloud_circle_rounded,
                 ),
                 label: ''),
           ],

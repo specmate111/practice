@@ -50,10 +50,11 @@ class WeatherService {
       var data = response.body;
       final res = jsonDecode(data);
       final result = WeatherModel.fromJson(res);
-return result;
-      
+      return result;
     } else {
-      print(response.statusCode);
+      //print(response.statusCode);
+
+      throw Exception(' \nmake sure that you have entered the correct city');
     }
   }
 }

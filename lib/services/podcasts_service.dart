@@ -22,9 +22,10 @@ class APIService {
 
       return demo;
     } else {
-     // print("not success");
+      //print(response.statusCode);
 
-      throw Exception('Failed to load json data');
+      throw Exception(
+          'Failed to load json data \n You have exceeded the MONTHLY quota for Requests on your current plan, BASIC');
     }
   }
 }
